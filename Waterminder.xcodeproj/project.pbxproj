@@ -7,6 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		B925D95126F69010006340B9 /* HydrationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B925D95026F69010006340B9 /* HydrationViewController.swift */; };
+		B925D95326F6ABDB006340B9 /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B925D95226F6ABDB006340B9 /* SettingsViewController.swift */; };
+		B925D95526F6AC40006340B9 /* HistoryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B925D95426F6AC40006340B9 /* HistoryViewController.swift */; };
+		B925D99726F6D077006340B9 /* Water+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = B925D99526F6D077006340B9 /* Water+CoreDataClass.swift */; };
+		B925D99826F6D077006340B9 /* Water+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = B925D99626F6D077006340B9 /* Water+CoreDataProperties.swift */; };
 		B959153426F5788100F4EBA8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B959153326F5788100F4EBA8 /* AppDelegate.swift */; };
 		B959153626F5788100F4EBA8 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B959153526F5788100F4EBA8 /* SceneDelegate.swift */; };
 		B959153826F5788100F4EBA8 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B959153726F5788100F4EBA8 /* ViewController.swift */; };
@@ -17,6 +22,11 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		B925D95026F69010006340B9 /* HydrationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HydrationViewController.swift; sourceTree = "<group>"; };
+		B925D95226F6ABDB006340B9 /* SettingsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
+		B925D95426F6AC40006340B9 /* HistoryViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HistoryViewController.swift; sourceTree = "<group>"; };
+		B925D99526F6D077006340B9 /* Water+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Water+CoreDataClass.swift"; sourceTree = "<group>"; };
+		B925D99626F6D077006340B9 /* Water+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Water+CoreDataProperties.swift"; sourceTree = "<group>"; };
 		B959153026F5788100F4EBA8 /* Waterminder.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Waterminder.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B959153326F5788100F4EBA8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		B959153526F5788100F4EBA8 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -42,6 +52,8 @@
 		B959152726F5788100F4EBA8 = {
 			isa = PBXGroup;
 			children = (
+				B925D99526F6D077006340B9 /* Water+CoreDataClass.swift */,
+				B925D99626F6D077006340B9 /* Water+CoreDataProperties.swift */,
 				B959153226F5788100F4EBA8 /* Waterminder */,
 				B959153126F5788100F4EBA8 /* Products */,
 			);
@@ -61,6 +73,9 @@
 				B959153326F5788100F4EBA8 /* AppDelegate.swift */,
 				B959153526F5788100F4EBA8 /* SceneDelegate.swift */,
 				B959153726F5788100F4EBA8 /* ViewController.swift */,
+				B925D95026F69010006340B9 /* HydrationViewController.swift */,
+				B925D95226F6ABDB006340B9 /* SettingsViewController.swift */,
+				B925D95426F6AC40006340B9 /* HistoryViewController.swift */,
 				B959153926F5788100F4EBA8 /* Main.storyboard */,
 				B959153F26F5788200F4EBA8 /* Assets.xcassets */,
 				B959154126F5788200F4EBA8 /* LaunchScreen.storyboard */,
@@ -142,9 +157,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				B959153826F5788100F4EBA8 /* ViewController.swift in Sources */,
+				B925D99826F6D077006340B9 /* Water+CoreDataProperties.swift in Sources */,
 				B959153426F5788100F4EBA8 /* AppDelegate.swift in Sources */,
 				B959153E26F5788100F4EBA8 /* Waterminder.xcdatamodeld in Sources */,
+				B925D99726F6D077006340B9 /* Water+CoreDataClass.swift in Sources */,
 				B959153626F5788100F4EBA8 /* SceneDelegate.swift in Sources */,
+				B925D95126F69010006340B9 /* HydrationViewController.swift in Sources */,
+				B925D95526F6AC40006340B9 /* HistoryViewController.swift in Sources */,
+				B925D95326F6ABDB006340B9 /* SettingsViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
